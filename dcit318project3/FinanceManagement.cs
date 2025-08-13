@@ -8,6 +8,7 @@ interface ITransactionProcessor
     void Process(Transaction transaction);
 }
 
+
 class BankTransferProcessor : ITransactionProcessor
 {
     public void Process(Transaction transaction)
